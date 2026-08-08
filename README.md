@@ -37,11 +37,13 @@ It was built as a learning project to understand API integration, backend archit
 RestAPI-ChatBot/
 │
 ├── database/
-│   ├── conversation.js
-│   └── ...
+│   ├── data.js
+│   
 │
-├── routes/
-│
+├── utils/
+|   |__ ai.js
+│   |__ ratelimit.js
+|
 ├── .env
 ├── package.json
 ├── server.js
